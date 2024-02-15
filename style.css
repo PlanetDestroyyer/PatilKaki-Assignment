@@ -314,12 +314,12 @@ button .h2 {
     }
 
     .top-text h1 {
-        font-size: 1rem;
+        font-size: 1.5rem;
         margin-top: 2rem;
     }
 
     .text {
-        font-size: 0.7rem;
+        font-size: 1rem;
     }
 
     .key-points li h4 {
@@ -355,7 +355,7 @@ button .h2 {
     }
 
     .section-1 {
-        margin-top: 10rem;
+        margin-top: 8rem;
     }
 
     button h2 {
@@ -376,7 +376,7 @@ button .h2 {
     }
 
     img {
-        margin-top: -4rem;
+        margin-top: -3rem;
     }
     .hr-text {
         &:after {
