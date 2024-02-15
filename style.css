@@ -25,11 +25,11 @@ body {
 .form-container {
     background-color: var(--royal-yellow);
     color: var(--grey);
-    padding: 20px;
+    padding: 1.25rem;
     position: fixed;
     bottom: 0;
     right: 0;
-    width: 300px;
+    width: 18.75rem;
     transition: transform 0.3s ease-in-out;
     transform: translateX(100%);
 }
@@ -42,21 +42,21 @@ body {
 .btn {
     background-color: var(--sage-green);
     color: white;
-    padding: 10px 20px;
+    padding: 0.625rem 1.25rem;
     border: none;
     cursor: pointer;
 }
 
 .btn-warning {
-    padding: 100px 40px;
-    font-size: 18px;
+    padding: 6.25rem 2.5rem;
+    font-size: 1.125rem;
     /* Increased font size */
 }
 
 /* Logo styles */
 .logo {
     position: absolute;
-    top: 20px;
+    top: 1.25rem;
     /* Adjust top position as needed */
     left: 15vw;
     z-index: 999;
@@ -64,7 +64,7 @@ body {
 
 /* Image container styles */
 .img-container {
-    padding: 30px;
+    padding: 1.875rem;
 }
 
 /* Slide styles */
@@ -74,7 +74,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 3.125rem;
+    gap: 0.195rem;
 }
 
 .slide1 {
@@ -102,13 +102,14 @@ body {
 }
 
 .about {
-    margin-top: 3rem;
+    margin-top: 0.46875rem;
 }
 
 .text-column {
-    padding: 5px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    height: 50%;
+    padding: 0.3125rem;
+    border: 0.0625rem solid #ccc;
+    border-radius: 0.3125rem;
     background-color: rgb(230, 225, 217);
 }
 
@@ -126,21 +127,21 @@ body {
 }
 
 .key-points li {
-    padding: 2rem;
-    margin: 0 40px;
+    padding: 1.875rem;
+    margin: 0 2.5rem;
     font-weight: bold;
 }
 
 .discount {
-    margin: 10px 0;
+    margin: 0.625rem 0;
 }
 
 button .h2 {
-    padding: 3rem;
+    padding: 1.875rem;
 }
 
 .about {
-    margin-top: 4.5rem;
+    margin-top: 2.8125rem;
 }
 
 .box {
@@ -150,10 +151,10 @@ button .h2 {
 }
 
 .border-box-round {
-    border: white solid 2px;
-    margin: 25px 10px;
-    border-radius: 10px;
-    padding: 30px;
+    border: white solid 0.125rem;
+    margin: 1.5625rem 0.625rem;
+    border-radius: 0.625rem;
+    padding: 1.875rem;
     text-align: center;
     /* Center text horizontally */
     display: flex;
@@ -165,13 +166,7 @@ button .h2 {
 }
 
 .border-box-round i {
-    margin-bottom: 10px;
-    /* Adjust vertical spacing between icon and text */
-}
-
-
-.border-box-round i {
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
     /* Adjust vertical spacing between icon and text */
 }
 
@@ -194,8 +189,8 @@ button .h2 {
         left: 0;
         top: 26%;
         width: 100%;
-        height: 3px;
-        font-size: 30px;
+        height: 0.1875rem;
+        font-size: 1.875rem;
     }
 
     &:after {
@@ -203,14 +198,14 @@ button .h2 {
         position: relative;
         display: inline-block;
         color: black;
-        padding: 0.2em 0.5em;
+        padding: 0.125rem 0.3125rem;
         /* Adjusted padding */
         line-height: 1.5em;
         color: white;
         background-color: rgb(4, 4, 41);
-        font-size: 30px;
-        border: 2px solid black;
-        border-radius: 5px;
+        font-size: 1.875rem;
+        border: 0.125rem solid black;
+        border-radius: 0.3125rem;
     }
 }
 
@@ -230,14 +225,14 @@ button .h2 {
 }
 
 .slide3 i {
-    font-size: 70px;
+    font-size: 4.375rem;
 }
 
 .section-3 {
     display: flex;
     justify-content: space-between;
     align-content: center;
-    margin-top: 1rem;
+    margin-top: 0.625rem;
 }
 
 .slide4 h1 {
@@ -265,9 +260,9 @@ button .h2 {
     transform: translate(-10%, 100%);
     opacity: 0;
     max-width: 100%;
-    padding: 20px;
-    border: 2px solid #ccc;
-    border-radius: 5px;
+    padding: 1.25rem;
+    border: 0.125rem solid #ccc;
+    border-radius: 0.3125rem;
     transition: all 1.5s ease-in-out;
 }
 
@@ -280,57 +275,150 @@ button .h2 {
 .form button {
     display: block;
     width: 100%;
-    margin-bottom: 10px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
+    margin-bottom: 0.625rem;
+    padding: 0.625rem;
+    border: 0.0625rem solid #ccc;
+    border-radius: 0.1875rem;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-/* For screens smaller than 768px */
-@media (max-width: 768px) {
+@media (max-width: 48rem) {
     .btn-warning {
-        padding: 15px 30px;
-        /* Further decreased padding */
-        font-size: 12px;
-        /* Decreased font size */
+        padding: 0.9375rem 1.875rem;
+        font-size: 0.75rem;
     }
 
     .logo {
-        left: 10px;
-        /* Adjusted left position */
+        left: 0.625rem;
     }
 
     .img-container {
-        padding: 10px;
-        /* Further decreased padding */
+        padding: 0.625rem;
     }
 
     .slides {
-        gap: 0.5rem;
-        /* Further decreased gap */
+        gap: 0.03125rem;
     }
 
     .border-box-round {
-        margin: 10px 0;
-        /* Further adjusted margin */
-        padding: 15px;
-        /* Further adjusted padding */
+        margin: 0.625rem 0;
+        padding: 0.9375rem;
     }
 
     .hr-text {
         height: 5em;
-        /* Adjusted height */
+    }
+
+    .slide1 {
+        font-size: 3vw;
+    }
+
+    .top-text h1 {
+        font-size: 1rem;
+        margin-top: 2rem;
+    }
+
+    .text {
+        font-size: 0.7rem;
+    }
+
+    .key-points li h4 {
+        font-size: 0.9rem;
+    }
+
+    .key-points li {
+        padding: 1rem;
+    }
+
+    .about-head {
+        font-size: 2rem;
+    }
+
+    .about i {
+        font-size: 2rem;
+    }
+
+    .about h3 {
+        font-size: 0.7rem;
+    }
+
+    svg {
+        width: 6rem;
+    }
+
+    .border-box-round {
+        margin: 0.5rem 0.3rem;
+        padding-top: 1rem;
+        padding-bottom: 0rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .section-1 {
+        margin-top: 10rem;
+    }
+
+    button h2 {
+        font-size: 1rem;
+    }
+
+    .logo {
+        top: 0.1rem;
+    }
+
+    .new-my button {
+        margin-top: -2rem;
+    }
+
+    .discount {
+        font-size: 0.9rem;
+        margin-top: -2rem;
+    }
+
+    img {
+        margin-top: -4rem;
+    }
+    .hr-text {
+        &:after {
+            font-size: 1rem;
+        }
+    }
+
+    .text-column {
+        background-color: white;
+    }
+    .hr-text {
+        margin-top: -2rem;
+    }
+
+    .slides.slide2 .row {
+        flex-direction: column;
+    }
+    
+    .slides.slide2 .img-container,
+    .slides.slide2 .text-column {
+        width: 100%;
+        padding: 0;
+    }
+
+    .img-container {
+        margin-top: -5rem;
+    }
+    .about-head {
+        margin-top: 9rem;
+        margin-bottom: 0rem;
+    }
+    .head-about {
+        margin-top: 9rem;
+    }
+    .slide4 h1{
+        font-size: 2rem;
+    }
+
+    .slide4 h2{
+        font-size: 2rem;
+    }
+    .form {
+        left: 34%;
     }
 }
